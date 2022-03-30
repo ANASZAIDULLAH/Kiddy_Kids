@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:layout_below="@id/image"
-        android:text="New Little Angel Garments"
+        android:text="Kiddy-Kids"
         android:layout_gravity="center"
         android:gravity="center"
         android:background="#FB0303"

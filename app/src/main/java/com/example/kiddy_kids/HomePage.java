@@ -8,18 +8,35 @@ import android.os.Bundle;
 import android.view.View;
 
 public class HomePage extends AppCompatActivity {
-    CardView cate;
+    CardView sale,boys,girls;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
-        cate = (CardView) findViewById(R.id.cate);
-        cate.setOnClickListener(new View.OnClickListener() {
+        sale = (CardView) findViewById(R.id.sale);
+        sale.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
             }
         });
+        boys = (CardView) findViewById(R.id.boys);
+        boys.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Boy.class);
+                startActivity(intent);
+            }
+        });
+        girls = (CardView) findViewById(R.id.girls);
+        girls.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
     }
 }
