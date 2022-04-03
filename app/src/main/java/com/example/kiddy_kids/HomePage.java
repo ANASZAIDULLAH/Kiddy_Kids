@@ -31,12 +31,13 @@ public class HomePage extends AppCompatActivity {
             }
         });
         girls = (CardView) findViewById(R.id.girls);
-        girls.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
+       girls.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent intent = new Intent(getApplicationContext(),Girls.class);
+               startActivity(intent);
+           }
+       });
 
     }
 }
