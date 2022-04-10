@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kiddy_Kids">
         <activity
+            android:name=".sixyear"
+            android:exported="false" />
+        <activity
+            android:name=".Fiveyear"
+            android:exported="false" />
+        <activity
+            android:name=".Fouryear"
+            android:exported="false" />
+        <activity
+            android:name=".Threeyear"
+            android:exported="false" />
+        <activity
+            android:name=".Oneyear"
+            android:exported="false" />
+        <activity
             android:name=".Girls"
             android:exported="false" />
         <activity
