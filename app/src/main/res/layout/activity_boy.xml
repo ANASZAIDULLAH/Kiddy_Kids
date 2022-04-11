@@ -61,9 +61,9 @@
 
                             <ImageView
                                 android:id="@+id/img1"
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_centerInParent="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
+                                android:layout_centerHorizontal="true"
                                 android:src="@drawable/one" />
                             <TextView
                                 android:layout_width="wrap_content"
@@ -95,9 +95,8 @@
 
                             <ImageView
                                 android:id="@+id/img2"
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_centerInParent="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
                                 android:src="@drawable/two" />
 
                             <TextView
@@ -142,9 +141,8 @@
 
                             <ImageView
                                 android:id="@+id/img3"
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_centerInParent="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
                                 android:src="@drawable/three" />
 
                             <TextView
@@ -176,9 +174,8 @@
 
                             <ImageView
                                 android:id="@+id/img4"
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_centerInParent="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
                                 android:src="@drawable/four" />
 
                             <TextView
@@ -223,10 +220,10 @@
 
                             <ImageView
                                 android:id="@+id/img5"
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_centerInParent="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
                                 android:src="@drawable/five" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -257,10 +254,10 @@
 
                             <ImageView
                                 android:id="@+id/img6"
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_centerInParent="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="120dp"
                                 android:src="@drawable/six" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"

@@ -6,65 +6,71 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class Boy extends AppCompatActivity {
-    CardView c1,c2,c3, c4, c5, c6;
+
+    CardView one, too, three, four, five, six;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boy);
 
 
-        c1 = (CardView) findViewById(R.id.c1);
-        c1.setOnClickListener(new View.OnClickListener() {
+        one = (CardView) findViewById(R.id.c1);
+        one.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),Oneyear.class);
+                Intent intent = new Intent(getApplicationContext(),FirstB.class);
+                startActivity(intent);
             }
         });
 
-        c2 = (CardView) findViewById(R.id.c2);
-        c2.setOnClickListener(new View.OnClickListener() {
+        too = (CardView) findViewById(R.id.c2);
+        too.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),Twoyear.class);
+                startActivity(intent);
             }
         });
 
-        c3 = (CardView) findViewById(R.id.c3);
-        c3.setOnClickListener(new View.OnClickListener() {
+        three = (CardView) findViewById(R.id.c3);
+        three.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),Threeyear.class);
+                startActivity(intent);
             }
         });
 
-        c4 = (CardView) findViewById(R.id.c4);
-        c4.setOnClickListener(new View.OnClickListener() {
+        four = (CardView) findViewById(R.id.c4);
+        four.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),Fouryear.class);
+                startActivity(intent);
             }
         });
 
-        c5 = (CardView) findViewById(R.id.c5);
-        c5.setOnClickListener(new View.OnClickListener() {
+        five = (CardView) findViewById(R.id.c5);
+        five.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),Fiveyear.class);
+                startActivity(intent);
             }
         });
 
-
-        c6 = (CardView) findViewById(R.id.c6);
-        c6.setOnClickListener(new View.OnClickListener() {
+        six = (CardView) findViewById(R.id.c6);
+        six.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),sixyear.class);
+                startActivity(intent);
             }
         });
+
     }
-
-
 
 }
