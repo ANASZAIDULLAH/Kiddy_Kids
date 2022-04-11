@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kiddy_Kids">
         <activity
+            android:name=".sixgirl"
+            android:exported="false" />
+        <activity
+            android:name=".fivegirl"
+            android:exported="false" />
+        <activity
+            android:name=".fourgirl"
+            android:exported="false" />
+        <activity
+            android:name=".threegirl"
+            android:exported="false" />
+        <activity
+            android:name=".twogirl"
+            android:exported="false" />
+        <activity
+            android:name=".onegirl"
+            android:exported="false" />
+        <activity
             android:name=".FirstB"
             android:exported="false" />
         <activity
