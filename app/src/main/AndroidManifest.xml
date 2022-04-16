@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kiddy_Kids">
         <activity
+            android:name=".Package1"
+            android:exported="false" />
+        <activity
+            android:name=".packages"
+            android:exported="false" />
+        <activity
             android:name=".sixgirl"
             android:exported="false" />
         <activity
